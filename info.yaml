@@ -18,7 +18,7 @@ project:
   # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
   source_files:
     - "project.v"
-"and.v"
+    - "and.v"
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
@@ -33,14 +33,14 @@ pinout:
   ui[7]: "a[7]"
 
   # Outputs
-  uo[0]: "v[0]"
-  uo[1]: "v[1]"
-  uo[2]: "v[2]"
-  uo[3]: "v[3]"
-  uo[4]: "v[4]"
-  uo[5]: "v[5]"
-  uo[6]: "v[6]"
-  uo[7]: "v[7]"
+  uo[0]: "Y[0]"
+  uo[1]: "Y[1]"
+  uo[2]: "Y[2]"
+  uo[3]: "Y[3]"
+  uo[4]: "Y[4]"
+  uo[5]: "Y[5]"
+  uo[6]: "Y[6]"
+  uo[7]: "Y[7]"
 
   # Bidirectional pins
   uio[0]: "b[0]"
